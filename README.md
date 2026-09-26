@@ -1,5 +1,10 @@
 # TraceMark v1.0 (Windows)
 
+## ⬇️ [Download TraceMark v1.0 for Windows (zip, 163.5 MB)](https://github.com/WizzHnt/TraceMark-App/releases/download/v1.0/TraceMark-v1.0-windows-x64.zip)
+
+The app is attached to the [v1.0 release](https://github.com/WizzHnt/TraceMark-App/releases/tag/v1.0),
+not stored as a file in this repository. Setup steps are under **Install and run** below.
+
 TraceMark is a desktop tool that issues invisibly fingerprinted copies of a PDF, one
 per recipient, and later identifies which recipient a leaked copy came from. The text
 of every copy stays selectable, copyable and searchable. It is a private academic
@@ -18,8 +23,9 @@ build or install.
 
 ## Install and run
 
-1. Open **Releases** (right-hand side of this page) → **v1.0** and download
-   `TraceMark-v1.0-windows-x64.zip`.
+1. Download `TraceMark-v1.0-windows-x64.zip` with the link at the top of this page, or
+   from the [v1.0 release page](https://github.com/WizzHnt/TraceMark-App/releases/tag/v1.0)
+   under **Assets**.
 2. Check the download in PowerShell. The value must match the one in the release notes:
    ```powershell
    (Get-FileHash .\TraceMark-v1.0-windows-x64.zip -Algorithm SHA256).Hash
